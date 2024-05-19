@@ -1,3 +1,22 @@
-## index handler
+### index handler
 
 GET http://127.0.0.1:8080/
+
+
+### update handler
+
+PATCH  http://127.0.0.1:8080/
+Content-Type: application/json
+
+{
+    "age": 18,
+    "skills": ["python", "java", "c++"]
+}
+
+### invalid request
+PATCH  http://127.0.0.1:8080/
+Content-Type: application/json
+
+{
+    "skills": "Rust"
+}
