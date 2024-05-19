@@ -1,3 +1,3 @@
-mod error;
+// empty file
 
-pub use error::MyError;
+//
