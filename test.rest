@@ -20,3 +20,15 @@ Content-Type: application/json
 {
     "skills": ["Rust"]
 }
+
+
+### url shortener
+POST http://localhost:9876/
+Content-Type: application/json
+
+{
+    "url": "https://www.google.com"
+}
+
+### test redirect url
+GET http://localhost:9876/gFNGDY

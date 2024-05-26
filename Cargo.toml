@@ -15,6 +15,7 @@ opentelemetry_sdk = { version = "0.22.1", features = ["rt-tokio"] }
 serde = { version = "1.0.202", features = ["derive"] }
 serde_json = "1.0.117"
 serde_with = "3.8.1"
+sqlx = { version = "0.7.4", features = ["postgres", "runtime-tokio", "tls-rustls"] }
 thiserror = "1.0.60"
 tracing = "0.1.40"
 tracing-appender = "0.2.3"
@@ -44,3 +45,4 @@ tokio = { version = "1.37.0", features = [
 tokio-stream = "0.1.15"
 tokio-util = { version = "0.7.11", features = ["codec"] }
 loom = "0.7"
+nanoid = "0.4.0"
